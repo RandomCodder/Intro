@@ -1,2 +1,6 @@
 print("Hello!")
-print("My day is going great today!")
+print("Welcome to the Space Traveler Calculater!")
+distance = int(input("Enter your input."))
+speed = int(input("Enter your speed."))
+time = (distance / speed)
+print("Your time is", time, "seconds")
